@@ -19,7 +19,7 @@ This repository is the home of the PoetryCoding philosophy.
 
 ## 📜 Core Documents
 
-- [Manifesto for PoetryCoding™](#manifesto) (below)
+- [Manifesto for PoetryCoding™](#manifesto-for-poetrycoding) (below)
 - [Style Guide](STYLE_GUIDE.md) — how to write poetic code
 - [Contest Rules](CONTEST.md) — for the annual PoetryCoding Award
 - [Trademark Notice](TRADEMARK.md)
@@ -67,4 +67,8 @@ This repository is the home of the PoetryCoding philosophy.
 
 ---
 
-™ *PoetryCoding is a trademark of erabytse. All rights reserved.*
+© 2025 erabytse. All rights reserved.  
+The content of this repository — including the Manifesto, Style Guide, and Contest Rules — is the intellectual property of **erabytse**.  
+Non-commercial sharing with attribution is permitted in the spirit of the movement. Commercial use or rebranding is strictly prohibited without written permission.
+
+™ *PoetryCoding is a trademark of erabytse.*
