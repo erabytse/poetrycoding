@@ -15,6 +15,8 @@ We believe code can:
 
 This repository is the home of the PoetryCoding philosophy.
 
+“If this resonates, you need not speak. Just place a stone: fork, add a .txt with one line of care in /stones/, and leave.”
+
 ---
 
 ## 📜 Core Documents
@@ -70,5 +72,6 @@ This repository is the home of the PoetryCoding philosophy.
 © 2025 erabytse. All rights reserved.  
 The content of this repository — including the Manifesto, Style Guide, and Contest Rules — is the intellectual property of **erabytse**.  
 Non-commercial sharing with attribution is permitted in the spirit of the movement. Commercial use or rebranding is strictly prohibited without written permission.
+
 
 ™ *PoetryCoding is a trademark of erabytse.*
