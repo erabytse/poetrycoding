@@ -3,7 +3,92 @@
 <head>
   <meta charset="utf-8">
   <title>PoetryCoding™</title>
-  <link rel="stylesheet" href="style.css">
+  <!--<link rel="stylesheet" href="style.css">-->
+  <style>
+    body 
+{ 
+    font-family: 'Courier New', monospace; 
+    margin: 0; 
+    background: #0a0a0a; 
+    color: #e0e0e0; 
+}
+.header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+.header h1 {
+    margin: 0 0 8px 0;
+    font-size: 1.8em;
+}
+.header p {
+    margin: 0 0 16px 0;
+    color: #aaa;
+}
+.controls {
+    margin: 10px auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.controls label {
+    color: #ccc;
+}
+.controls select, .controls button {
+    padding: 6px 12px;
+    font-family: inherit;
+    font-size: 1em;
+    border-radius: 4px;
+}
+.controls select {
+    background: #1a1a1a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+.controls button {
+    background: #2d3748;
+    color: #68d391;
+    border: 1px solid #4ade80;
+    cursor: pointer;
+}
+.controls button:hover {
+    background: #4ade80;
+    color: #000;
+}
+
+.main-panels {
+    display: flex;
+    height: calc(100vh - 180px);
+}
+.panel {
+    flex: 1;
+    padding: 20px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.code { 
+    white-space: pre; 
+    background: #151515; 
+    padding: 15px; 
+    border-radius: 4px;
+    height: 100%;
+    overflow: auto;
+    font-family: monospace;
+}
+.output { 
+    background: #001100; 
+    color: #4ade80; 
+    padding: 15px; 
+    border-radius: 4px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    height: 100%;
+    overflow: auto;
+}
+  </style>
 </head>
 <body>
   <h1>🌿 PoetryCoding™</h1>
@@ -37,4 +122,5 @@
     }
   </script>
 </body>
+
 </html>
