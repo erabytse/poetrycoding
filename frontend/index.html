@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PoetryCoding™</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌿 PoetryCoding™</h1>
+  <p>A quiet space to witness code as poetry.</p>
+
+  <select id="poem-select">
+    <option value="decay.py">decay.py</option>
+    <option value="lemon.py">lemon.py</option>
+    <option value="november_2025.py">november_2025.py</option>
+  </select>
+  <button onclick="run()">▶️ Run</button>
+
+  <div id="output">Choose a poem and run.</div>
+
+  <script>
+    async function run() {
+      const file = document.getElementById('poem-select').value;
+      const out = document.getElementById('output');
+      out.textContent = "Running...";
+
+      // ⚠️ Appel à ton VPS (pas à GitHub)
+      const url = `https://poetry.duckdns.org/run?file=${encodeURIComponent(file)}`;
+
+      try {
+        const res = await fetch(url);
+        const data = await res.json();
+        out.textContent = data.output || "(no output)";
+      } catch (e) {
+        out.textContent = "❌ " + e.message;
+      }
+    }
+  </script>
+</body>
+</html>
